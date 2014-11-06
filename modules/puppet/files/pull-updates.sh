@@ -1,3 +1,3 @@
 #!/bin/sh
 cd ~/puppet
-git pull && papply
+git pull >> /var/log/papply.log && papply >> /var/log/papply.log
